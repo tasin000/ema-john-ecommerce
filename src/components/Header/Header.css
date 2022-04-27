@@ -1,0 +1,29 @@
+nav {
+  background-color: #1c2b35;
+  padding: 15px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1295px;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  margin: 0 10px;
+  transition: color .1s linear;
+}
+
+
+.nav-links a:hover{
+     color: #ff9900;
+}
