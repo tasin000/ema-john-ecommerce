@@ -13,8 +13,8 @@ const Product = ({pd, handleAddToCart}) => {
                <div className="product-info">
                     <h3>{name}</h3>
                     <p>Price: ${price}</p>
-                    <p>Manufacturer: {seller}</p>
-                    <p>Ratings: {ratings} stars</p>
+                    <p><small>Manufacturer: {seller}</small></p>
+                    <p><small>Ratings: {ratings} stars</small></p>
                </div>
 
                <button className='cart-btn' onClick={() => handleAddToCart(pd)}>

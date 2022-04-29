@@ -2,31 +2,25 @@
   border: 1px solid #95a0a7;
   border-radius: 8px;
   position: relative;
-  height: 510px;
+  height: 515px;
 }
 
 .product-card img {
-  width: 100%;
+  width: 286px;
+  height: 286px;
   border-radius: 5px;
 }
 
 .product-info{
-     padding: 5px 10px;
+    padding: 0 10px;
 }
 
 .product-info h3 {
-  font-weight: 700;
   font-size: 17px;
-  line-height: 25px;
-  letter-spacing: 0.0015em;
 }
 
 .product-info p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 17px;
-  line-height: 20px;
-  letter-spacing: 0.0015em;
 }
 
 .cart-btn{

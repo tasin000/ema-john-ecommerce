@@ -1,6 +1,6 @@
 nav {
   background-color: #1c2b35;
-  padding: 15px;
+  padding: 16px 0;
 }
 
 .nav-bar {
@@ -8,7 +8,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 1295px;
+  max-width: 1195px;
   margin: 0 auto;
 }
 
