@@ -8,6 +8,8 @@
 .product-card img {
   width: 286px;
   height: 286px;
+  display: block;
+  margin: 5px auto;
   border-radius: 5px;
 }
 
