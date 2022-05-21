@@ -1,0 +1,45 @@
+.review-shop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.review-cart-container {
+  background-color: #ffe1b3;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px 10px;
+  margin: 20px 0;
+  height: min-content;
+  position: sticky;
+  top: 20px;
+}
+
+.review-cart-container h2 {
+  text-align: center;
+}
+
+.review-cart-container p{
+     margin: 30px 0;
+}
+
+.review-order-btn {
+  background-color: #FF9900;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-order-btn svg {
+  margin: 0 10px;
+}

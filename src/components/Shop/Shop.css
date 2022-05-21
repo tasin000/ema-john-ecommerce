@@ -11,34 +11,11 @@
 }
 
 .cart-container{
-     background-color: #FFE1B3;
+     position: sticky;
+     top: 0;
+     z-index: 10;
 }
 
-.cart-container .cart-heading{
-     text-align: center;
-}
-
-.clear-cart-btn{
-     background-color: #FF3030;
-     color: #fff;
-     padding: 10px 15px;
-     font-size: 17px;
-     font-weight: 700;
-     border: 0;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: background-color .1s linear;
-     width: 100%;
-}
-
-.clear-cart-btn svg{
+.btn-group{
      margin: 0 10px;
-}
-
-.clear-cart-btn:hover{
-     background-color: #ff9900;
-}
-
-.whole-cart{
-     margin: 0 45px;
 }

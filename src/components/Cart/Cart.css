@@ -1,5 +1,33 @@
-.cart{
-     position: sticky;
-     top: 0;
-     padding: 10px 0;
+.cart-container{
+     background-color: #FFE1B3;
+}
+
+.cart-container .cart-heading{
+     text-align: center;
+}
+
+.btn-group button{
+     margin: 10px 0;
+     display: flex;
+     justify-content: space-between;
+}
+
+.clear-cart-btn{
+     background-color: #FF3030;
+     color: #fff;
+     padding: 10px 15px;
+     font-size: 17px;
+     font-weight: 700;
+     border: 0;
+     border-radius: 5px;
+     cursor: pointer;
+     width: 100%;
+}
+
+.clear-cart-btn svg{
+     margin: 0 10px;
+}
+
+.whole-cart{
+     margin: 0 45px;
 }
