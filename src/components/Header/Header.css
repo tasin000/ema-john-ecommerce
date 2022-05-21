@@ -15,14 +15,17 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.005em;
   margin: 0 10px;
-  transition: color .1s linear;
 }
 
+.nav-links a.active{
+  color: #ff0000;
+  font-weight: 800;
+}
 
 .nav-links a:hover{
      color: #ff9900;
