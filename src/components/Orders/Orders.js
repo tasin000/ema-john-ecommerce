@@ -34,11 +34,12 @@ const Orders = () => {
                </div>
 
                <div className="review-cart-container">
-                    <Cart cart={cart} />
-                    <button className='review-order-btn' onClick={() => navigate('/order-review')} >
-                         Proceed Checkout
-                         <FontAwesomeIcon icon={faCreditCard} />
-                    </button>
+                    <Cart cart={cart}>
+                         <button className='review-order-btn' onClick={() => navigate('/order-review')} >
+                              Proceed Checkout
+                              <FontAwesomeIcon icon={faCreditCard} />
+                         </button>
+                    </Cart>
                </div>
           </div>
      );

@@ -39,18 +39,19 @@ const Shop = () => {
                </div>
 
                <div className="cart-container">
-                    <Cart cart={cart} clearCart={clearCart} />
-                    <div className="btn-group">
-                         <button className="clear-cart-btn" onClick={clearCart}>
-                              Clear Cart
-                              <FontAwesomeIcon icon={faTrashAlt} />
-                         </button>
+                    <Cart cart={cart} clearCart={clearCart}>
+                         <div className="btn-group">
+                              <button className="clear-cart-btn" onClick={clearCart}>
+                                   Clear Cart
+                                   <FontAwesomeIcon icon={faTrashAlt} />
+                              </button>
 
-                         <button className='review-order-btn' onClick={() => navigate('/orders')}>
-                              Review Order
-                              <FontAwesomeIcon icon={faArrowRightLong} />
-                         </button>
-                    </div>
+                              <button className='review-order-btn' onClick={() => navigate('/orders')}>
+                                   Review Order
+                                   <FontAwesomeIcon icon={faArrowRightLong} />
+                              </button>
+                         </div>
+                    </Cart>
                </div>
           </div>
      );

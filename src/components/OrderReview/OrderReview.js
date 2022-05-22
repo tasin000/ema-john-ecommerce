@@ -1,10 +1,11 @@
 import React from 'react';
 import './OrderReview.css';
+import gif from "../../images/giphy.gif";
 
 const OrderReview = () => {
      return (
-          <div>
-               <h1>Order Review</h1>
+          <div className='order-review'>
+               <img src={gif} alt="Loading..." />
           </div>
      );
 };
